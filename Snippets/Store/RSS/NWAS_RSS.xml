@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+  <description>NWAS RSS Feeds</description>	
+  
+  <language>en-gb</language>
+  <link>http://www.northwestambulance.nhs.uk/</link>
+
+  <title>NWAS RSS</title>
+
+  <item>
+     
+    <description>REAP Level</description>
+    <link>https://greenroom.nwas.nhs.uk/library/naru-reap-plan/</link>
+    <title>We are currently operating at REAP Level 4</title>
+	
+  </item>
+	
+  <item>
+  
+    <description>Operational Level</description>
+    <link>https://greenroom.nwas.nhs.uk/</link>
+    <title>Operational Level current at Normal Business</title>
+
+  </item>
+
+</channel>
+
+</rss>

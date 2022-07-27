@@ -1,0 +1,67 @@
+
+
+body {
+	overflow:hidden;
+    font-family: 'Montserrat', 'Roboto';
+	background-color: transparent;
+
+
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.grid-layout {
+
+	width: 100%;
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+.REAP-4 {
+	background-color: var(--palette-black-pop);
+	color: whitesmoke;
+}
+
+.REAP-3 {
+	background-color: var(--palette-red-pop);
+	color: whitesmoke;
+}
+
+
+
+.REAP-title {
+    font-size: calc(0.05rem + 7.9vw); 
+	/* font-size: 18pt; */
+  }
+  
+  .REAP-description {
+    font-size: calc(0.05rem + 4.8vw); 
+	/* font-size: 11pt; */
+  }
+  
+  .REAP-number {
+    font-size: calc(0.05rem + 18vw); 
+	/* font-size: 40pt; */
+	line-height: 1;
+  }
+  

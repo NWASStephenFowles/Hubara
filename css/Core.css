@@ -1,0 +1,64 @@
+
+/* || Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+
+/* || Core Styles */
+body {
+	overflow:hidden;
+    font-family: 'Comfortaa', cursive;
+}
+  
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;;
+}
+
+
+.grid-layout {
+
+	width: 100%;
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+::selection {
+    background-color: var(--theme-bg-selection);
+    color: var(--theme-fg-selection);
+    font-weight: bold;
+}
+  
+
+.link-1 a {
+	text-decoration: none;
+}
+
+.link-1 a:hover {
+	text-decoration: underline;
+}
+
+.height-fix {
+	overflow: hidden;
+	height: 1%;
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }

@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+body {
+	overflow:hidden;
+    font-family: 'Comfortaa', cursive;
+}
+
+  
+
+.grid-layout {
+
+	width: 100%;
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.dash-nav {
+	
+	background: #153D70;
+background: -webkit-linear-gradient(top left, #153D70, #4A004A);
+background: -moz-linear-gradient(top left, #153D70, #4A004A);
+background: linear-gradient(to bottom right, #153D70, #4A004A);
+
+	color: var(--nwas-secondary-palegray);
+
+
+}
+
+.dash-item-title {
+	
+	background: rgb(70,70,71);
+	background: linear-gradient(345deg, rgba(70,70,71,1) 0%, rgba(129,129,133,1) 100%);
+
+	
+	color: var(--nwas-secondary-palegray);
+
+
+}
+
+.dash-item-unavailable {
+	
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2c3e50+0,3498db+100;Gren+3D */
+	background: #46aceb; /* Old browsers */
+	background: -moz-linear-gradient(top,  #46aceb 0%, #3498db 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #46aceb 0%,#3498db 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #46aceb 0%,#3498db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46aceb', endColorstr='#3498db',GradientType=0 ); /* IE6-9 */
+
+	color: var(--custom-dark);
+
+
+
+}
+
+.dash-item-standard {
+	
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+	color: var(--custom-dark);
+
+
+
+}
+
+
+.dash-item-warning {
+	
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+	color: var(--custom-dark);
+
+	border-top: 0px;
+	border-right: 15px solid #d9ff00;
+	border-left: 15px solid orange;
+	border-bottom: 0px;
+
+	animation: border-pulsate-warning 3s infinite;
+
+}
+
+@keyframes border-pulsate-warning {
+    0%   { border-color: var(--flash-warning);}
+    50% { border-color: var(--flash-warning-scale);}
+    100%   { border-color: var(--flash-warning);}
+}
+
+.dash-item-danger {
+	
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+	color: var(--custom-dark);
+
+	border-top: 0px;
+	border-right: 15px solid #ffa500;
+	border-left: 15px solid orangered;
+	border-bottom: 0px;
+
+	animation: border-pulsate-danger 3s infinite;
+
+}
+
+@keyframes border-pulsate-danger {
+    0%   { border-color: var(--flash-danger);}
+    50% { border-color: var(--flash-danger-scale);}
+    100%   { border-color: var(--flash-danger);}
+}
+
+.alert-amber{
+	border-right: 15px solid orange;
+	border-left: 15px solid orange;
+  }
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	...;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	...;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	...;
+}
+
+
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;;
+}
+
+.icon-green, .icon-amber, .icon-red {
+
+}
+
+
+.icon-green {
+	color: var(--nhs-darkgreen);
+
+}
+
+.icon-amber {
+	color: var(--nhs-orange);
+
+}
+
+.icon-red {
+	color: var(--nhs-darkred);
+
+}
+
+
+
+
+
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+.header-button {
+	padding: .175rem .55rem;
+}
+
+
+	
+/* Font adjustments */
+
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-bottom: 15px;
+}
+
+h3 {
+	line-height: 1.3em;
+	margin-bottom: 5px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+
+P {
+	line-height: 1.4em;
+	text-align: justify;
+	margin: 10px 15px;
+}
+
+p em {
+	
+  }
+
+.header-img {
+	max-height: 90px;
+	width: 80%;
+	margin: 0px auto;
+	height: auto;
+	width: auto;
+}
+
+.link-1 a {
+	text-decoration: none;
+}
+
+.link-1 a:hover {
+	text-decoration: underline;
+}
+
+.top-border {
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+.height-fix {
+	overflow: hidden;
+	height: 1%;
+}
+
+
+#wrapper {
+    overflow-x: hidden;
+ }
+
+
+ #footer {
+	color: #CCC;
+	font-size: 10px;
+	border-top-width: 1px;
+	border-top-style: ridge;
+	border-top-color: #888;
+	width:100%;
+	position: absolute;
+	bottom: 0;
+	align-self: center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#footer .left{
+	float:left;
+	padding-left:5px;
+}
+#footer .right {
+	float:right;
+	padding-right:5px;
+}
+#footer .right a {
+	color: #888;
+}

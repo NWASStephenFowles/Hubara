@@ -1,0 +1,239 @@
+:root {
+
+	--nhs-blue: #005EB8;
+	--nhs-darkblue: #003087;
+	--nhs-brightblue: #0072CE;
+	--nhs-lightblue: #41B6E6;
+	--nhs-aquablue: #00A9CE;
+	--nhs-black: #231f20;
+	--nhs-darkgray: #425563;
+	--nhs-midgray: #768692;
+	--nhs-palegray: #E8EDEE;
+	--nhs-darkgreen: #006747;
+	--nhs-green: #009639;
+	--nhs-lightgreen: #78BE20;
+	--nhs-aquagreen: #00A499;
+	--nhs-purple: #330072;
+	--nhs-darkpink: #7C2855;
+	--nhs-pink: #AE2573;
+	--nhs-darkred: #8A1538;
+	--nhs-emergencyred: #DA291C;
+	--nhs-orange: #ED8B00;
+	--nhs-warmyellow: #FFB81C;
+	--nhs-yellow: #FAE100;
+
+	--nwas-green: #00A97A;
+	--nwas-yellow: #E2E729;
+	--nwas-oceanblue: #0A454F;
+	--nwas-navyblue: #221C34;
+	--nwas-blue: #005EB8;
+
+	--nwas-secondary-darkblue: #003087;
+	--nwas-secondary-brightblue: #0072CE;
+	--nwas-secondary-lightblue: #41B6E6;
+	--nwas-secondary-aquablue: #00A9CE;
+
+	--nwas-secondary-black: #231F20;
+	--nwas-secondary-darkgray: #425563;
+	--nwas-secondary-midgray: #768682;
+	--nwas-secondary-palegray: #E8EDEE;
+
+	--nwas-secondary-darkgreen: #006747;
+	--nwas-secondary-green: #009639;
+	--nwas-secondary-lightgreen: #78BE20;
+	--nwas-secondary-aquagreen: #00A499;
+
+	--nwas-secondary-purple: #330072;
+	--nwas-secondary-darkpink: #7C2855;
+	--nwas-secondary-pink: #AE2573;
+	--nwas-secondary-darkred: #8A1538;
+	--nwas-secondary-red: #DA291C;
+	--nwas-secondary-orange: #ED8B00;
+	--nwas-secondary-warmyellow: #FFB81C;
+	--nwas-secondary-yellow: #FAE100;
+	--nwas-secondary-white: #FFFFFF;
+
+
+
+	--bg-primary: #181818;
+	--bg-secondary: #262525;
+	--bg-tertiary: #FFFFFA;
+
+	--text-dark: #1F2421;
+	--text-light: #FFFFFA;
+	
+	--dash-yellow: #ccff00;
+	--dash-pink: #F535AA;
+	--dash-purple: #7f00ff;
+	--dash-green: #36F57F;
+	--dash-blue: #36ACF5;
+	--dash-red: #ff4c2a;
+	--dash-orange: #F57F36;
+
+	--table-cyan-thead: #117b8c;
+	--table-cyan-thead-sub: #09434f;
+
+	--table-purple-thead: #390987;
+	--table-purple-thead-sub: #15052e;
+
+	--table-green-thead: #28a745;
+	--table-green-thead-sub: #17692a;
+
+	--table-red-thead: #cf0619;
+	--table-red-thead-sub: #660b14;
+
+	--table-yellow-thead: #b38705;
+	--table-yellow-thead-sub: #614903;
+
+	--table-blue-thead: #0e5199;
+	--table-blue-thead-sub: #082e57;
+	
+	--flash-green: var(--nhs-darkgreen);
+	--flash-green-scale: var(--nhs-lightgreen);
+	
+	--flash-warning: orange;
+	--flash-warning-scale: orangered;
+
+	--flash-danger: #cf0619;
+	--flash-danger-scale: #660b14;
+}
+
+/* base background colours */ 
+
+.bg-base-dark {	
+	background-color: var(--bg-primary);
+}
+
+.bg-header {	
+	background-color: var(--bg-secondary);
+}
+.bg-footer {	
+	background-color: var(--bg-secondary);
+}
+
+
+.bg-light {	
+	background-color: var(--bg-tertiary);
+}
+
+::selection {
+    background-color: var(--nwas-oceanblue);
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+/* base foreground colours */ 
+
+.dash-text-primary {
+	color: var(--text-dark);
+}
+.dash-text-secondary {
+	color: var(--text-light);
+}
+.text-success {
+	color: var(--dash-blue);
+}
+.text-info {
+	color: var(--dash-green);
+}
+.text-warning {
+	color: var(--dash-yellow);
+}
+.text-danger {
+	color: var(--dash-red);
+}
+
+.link-dark {
+	color: var(--text-dark);
+}
+
+.link-light {
+	color: var(--text-light);
+}
+
+
+
+
+
+
+/* Bootstrap callout */ 
+.bs-callout {
+	border: #eee;
+  }
+  .bs-callout-default {
+	border-color: #777;
+	background-color: #f7f7f9;
+  }
+  .bs-callout-default h4 {
+	color: #777;
+  }
+  .bs-callout-primary {
+	border-color: #428bca;
+  }
+  .bs-callout-primary h4 {
+	color: #428bca;
+  }
+  .bs-callout-success {
+	border-color: #5cb85c;
+	background-color: #efffe8;
+  }
+  .bs-callout-success h4 {
+	color: #5cb85c;
+  }
+  .bs-callout-danger {
+	border-color: #d9534f;
+	background-color: #fcf2f2;
+  }
+  .bs-callout-danger h4 {
+	color: #d9534f;
+  }
+  .bs-callout-warning {
+	border-color: #f0ad4e;
+	background-color: #fefbed;
+  }
+  .bs-callout-warning h4 {
+	color: #f0ad4e;
+  }
+  .bs-callout-info {
+	border-color: #5bc0de;
+	background-color: #f0f7fd;
+  }
+  .bs-callout-info h4 {
+	color: #5bc0de;
+  }
+  /* bg transparency and disabled effects for Bootstrap callout */ 
+  .bs-callout-default.transparent {
+	background-color: rgb(247, 247, 249, 0.7); /*#f7f7f9*/
+  }
+  .bs-callout-success.transparent {
+	background-color: rgb(239, 255, 232, 0.7); /*#efffe8*/
+  }
+  .bs-callout-warning.transparent {
+	background-color: rgb(254, 251, 237, 0.7); /*#fefbed*/
+  }
+  .bs-callout-danger.transparent {
+	background-color: rgb(252, 242, 242, 0.7); /*#fcf2f2*/
+  }
+  .bs-callout-info.transparent {
+	background-color: rgb(240, 247, 253, 0.7); /*#f0f7fd*/
+  }
+
+
+
+    
+.btn-close {
+    color: #000;
+}
+
+
+.btn-close:hover {
+    color: #000;
+  }
+  .btn-close:focus {
+    box-shadow:  rgba(13, 110, 253, 0.25);
+
+  }
+

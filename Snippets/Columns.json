@@ -1,0 +1,17 @@
+[
+	{ 
+		"Name":"ID", 
+		"Level":"1",
+		"AS":"ID"
+	},
+	{ 
+		"Name":"Snippet", 
+		"Level":"1",
+		"AS":"Name"
+	},
+	{
+		"Name":"URL", 
+		"Level":"2",
+		"AS":"URL"
+	}
+]

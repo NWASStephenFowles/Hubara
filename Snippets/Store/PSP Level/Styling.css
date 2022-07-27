@@ -1,0 +1,78 @@
+
+body {
+	overflow:hidden;
+    font-family: 'Montserrat', 'Roboto';
+	background-color: transparent;
+
+
+}
+
+.center {
+margin-left: -1px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  }
+
+.grid-layout {
+
+	width: 100%;
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+.bg-green {
+	background-color: var(--nwas-oceanblue);
+	color: whitesmoke;
+}
+
+.bg-yellow {
+	background-color: var(--nwas-yellow);
+	color: var(--palette-gray-pop);
+}
+
+.bg-blue {
+	background-color: var(--nwas-navyblue);
+	color: whitesmoke;
+}
+
+
+
+
+.waittimes-title {
+	font-size: calc(0.90rem + 09vw); 
+	/* font-size: 18pt; */
+	padding: 1px 2px 1px 2px;
+	line-height: calc(2.0rem + 10.2vw); 
+	font-weight: 800;
+	margin-bottom: 1px !important;
+  }
+  
+.waittimes-timings {
+	font-size: calc(0.90rem + 09vw); 
+	/* font-size: 11pt; */
+	padding: 1px 2px 1px 2px;
+	background-color: whitesmoke;
+	line-height: calc(2.0rem + 10.2vw); 
+	color: var(--palette-black-pop);
+	border:  var(--palette-black-pop);
+	border-style: solid;
+	border-width: 1px;
+}
+  
